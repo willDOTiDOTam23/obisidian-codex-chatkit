@@ -1,6 +1,6 @@
 # agents
 
-Last updated: 2025-12-06 17:35 MST by Codex
+Last updated: 2025-12-06 18:18 MST by Codex
 
 ## Purpose
 - Define how humans and agents collaborate in this vault; keep contributions predictable and auditable.
@@ -41,5 +41,6 @@ Last updated: 2025-12-06 17:35 MST by Codex
 - Include scripts when they make execution safer or faster; keep usage documented in the skill.
 
 ## Vault activity log
+- 2025-12-06 18:18 MST — Codex: Added Codex TypeScript SDK scaffold, npm/tsconfig, and docs for ChatKit integration.
 - 2025-12-06 17:35 MST — Codex: Added dev setup guidance, starter indexes, tag baseline, tests, and tracked vault config.
 - 2025-12-06 17:29 MST — Codex: Deduplicated guidance, created scaffolding folders, and added initial skill stubs.

@@ -1,0 +1,34 @@
+{
+  "name": "obisidian-codex-chatkit",
+  "version": "1.0.0",
+  "description": "Obsidian vault integrations and skills with Codex/ChatKit support",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "codex:demo": "ts-node src/codex-demo.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willDOTiDOTam23/obisidian-codex-chatkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willDOTiDOTam23/obisidian-codex-chatkit/issues"
+  },
+  "homepage": "https://github.com/willDOTiDOTam23/obisidian-codex-chatkit#readme",
+  "dependencies": {
+    "@openai/codex-sdk": "^0.65.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
