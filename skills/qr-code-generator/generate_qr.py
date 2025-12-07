@@ -30,7 +30,7 @@ def run() -> int:
         "--error",
         choices=ERROR_MAP.keys(),
         default="M",
-        help="Error correction level: L (7%), M (15%), Q (25%), H (30%).",
+        help="Error correction level: L (7%%), M (15%%), Q (25%%), H (30%%).",
     )
     args = parser.parse_args()
 
