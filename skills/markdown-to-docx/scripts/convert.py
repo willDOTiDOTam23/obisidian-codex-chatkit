@@ -3,7 +3,7 @@
 Convert a Markdown file to DOCX using the Pandoc CLI.
 
 Usage:
-    python convert.py input.md [output.docx]
+    python skills/markdown-to-docx/scripts/convert.py input.md [output.docx]
 """
 import argparse
 import subprocess

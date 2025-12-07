@@ -1,6 +1,6 @@
 # agents
 
-Last updated: 2025-12-06 18:20 MST by Codex
+Last updated: 2025-12-07 00:54 UTC by Codex
 
 ## Purpose
 - Define how humans and agents collaborate in this vault; keep contributions predictable and auditable.
@@ -29,8 +29,15 @@ Last updated: 2025-12-06 18:20 MST by Codex
 
 ## Intake and curation
 - New, rough notes land in `intake/` tagged `#intake/new`; add a short summary and activity log entry.
+- Intake is for human drop-offs and early triage; keep raw context there until normalized.
 - Normalize formatting, links, and filenames before moving a note to its destination folder.
 - After moving, update the relevant `index.md` with a one-line link and verify backlinks.
+
+## References vs. skills
+- Store reusable facts, decisions, definitions, and templates in `references/`, tagged appropriately (e.g., `#reference`).
+- Store atomic, repeatable actions in `skills/<name>/`, each containing `skill.md`, `checklist.md`, and any helper code under `scripts/`, tagged `#skill/<name>`.
+- When in doubt: references explain "what" and the shared canon; skills capture the minimal "how" needed to run one atomic activity.
+- Cross-link skills to the references they rely on, and avoid duplicating the same fact across both.
 
 ## Safety
 - Do not store secrets. Link to secure systems instead.
@@ -41,6 +48,8 @@ Last updated: 2025-12-06 18:20 MST by Codex
 - Include scripts when they make execution safer or faster; keep usage documented in the skill.
 
 ## Vault activity log
+- 2025-12-07 00:59 UTC — Codex: Tightened skill definition to atomic actions and codified `scripts/` placement within each skill.
+- 2025-12-07 00:54 UTC — Codex: Documented intake/references purposes and clarified reference vs. skill delineation.
 - 2025-12-06 18:20 MST — Codex: Standardized Codex attribution for vault updates and clarified timestamp guidance.
 - 2025-12-06 17:48 MST — Codex: Added index maintenance expectations across the vault.
 - 2025-12-06 17:35 MST — Codex: Added dev setup guidance, starter indexes, tag baseline, tests, and tracked vault config.
