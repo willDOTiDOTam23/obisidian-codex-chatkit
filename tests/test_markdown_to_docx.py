@@ -7,7 +7,13 @@ from pathlib import Path
 
 
 PANDOC_PATH = shutil.which("pandoc")
-CONVERT_SCRIPT = Path(__file__).resolve().parent.parent / "skills" / "markdown-to-docx" / "convert.py"
+CONVERT_SCRIPT = (
+    Path(__file__).resolve().parent.parent
+    / "skills"
+    / "markdown-to-docx"
+    / "scripts"
+    / "convert.py"
+)
 
 
 @unittest.skipUnless(PANDOC_PATH, "Pandoc is not installed")
