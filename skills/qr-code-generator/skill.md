@@ -1,6 +1,6 @@
 # qr-code-generator
 
-Last updated: 2025-12-06 17:29 MST by Codex
+Last updated: 2025-12-07 00:59 UTC by Codex
 
 Tags: #skill/qr-code-generator
 
@@ -15,7 +15,7 @@ Tags: #skill/qr-code-generator
 ## Steps
 1) Ensure dependencies are available: `pip install qrcode[pil]`.
 2) (Optional) Activate virtualenv if using one.
-3) Run `python skills/qr-code-generator/generate_qr.py --text "https://example.com" --output qr.png`.
+3) Run `python skills/qr-code-generator/scripts/generate_qr.py --text "https://example.com" --output qr.png`.
 4) Open the PNG to verify readability (e.g., phone camera scan).
 
 ## Outputs
@@ -26,4 +26,5 @@ Tags: #skill/qr-code-generator
 - Extend to embed a logo or change colors if branding is required.
 
 ## Vault activity log
+- 2025-12-07 00:59 UTC — Codex: Moved helper script under `scripts/` to match skill folder pattern.
 - 2025-12-06 17:29 MST — Codex: Added QR code generator skill stub and helper script.

@@ -10,7 +10,13 @@ except ImportError:
     qrcode = None
 
 
-QR_SCRIPT = Path(__file__).resolve().parent.parent / "skills" / "qr-code-generator" / "generate_qr.py"
+QR_SCRIPT = (
+    Path(__file__).resolve().parent.parent
+    / "skills"
+    / "qr-code-generator"
+    / "scripts"
+    / "generate_qr.py"
+)
 
 
 @unittest.skipUnless(qrcode, "qrcode library is not installed")
