@@ -1,18 +1,18 @@
 # agents
 
-Last updated: 2025-12-06 17:35 MST by Codex
+Last updated: 2025-12-06 18:20 MST by Codex
 
 ## Purpose
 - Define how humans and agents collaborate in this vault; keep contributions predictable and auditable.
 
 ## Timestamping
-- Every edited note adds `Last updated: YYYY-MM-DD HH:MM ZZZ by <author>` under the H1.
+- Every edited note adds `Last updated: YYYY-MM-DD HH:MM ZZZ by <author>` under the H1, using `Codex` as the author name for our contributions.
 - Log meaningful edits under a `## Vault activity log` section in the changed note.
 
 ## Structure
 - Top-level today: `intake/`, `references/`, `skills/`, `data/sqlite/`, `data/graphs/`.
 - Keep filenames in lowercase kebab-case (e.g., `readme.md`, `starter-kit/` assets). Use folder-qualified links when titles could collide.
-- Add an `index.md` once a folder holds ~5+ notes to aid navigation.
+- Add an `index.md` once a folder holds ~5+ notes to aid navigation, and keep each index linking to all folders and notable files within its directory. Update indexes when adding, moving, or renaming content so navigation stays accurate.
 
 ## Navigation and linking
 - Prefer Obsidian wikilinks `[[note-name]]` for internal references; use descriptive text for external URLs.
@@ -41,5 +41,7 @@ Last updated: 2025-12-06 17:35 MST by Codex
 - Include scripts when they make execution safer or faster; keep usage documented in the skill.
 
 ## Vault activity log
+- 2025-12-06 18:20 MST — Codex: Standardized Codex attribution for vault updates and clarified timestamp guidance.
+- 2025-12-06 17:48 MST — Codex: Added index maintenance expectations across the vault.
 - 2025-12-06 17:35 MST — Codex: Added dev setup guidance, starter indexes, tag baseline, tests, and tracked vault config.
 - 2025-12-06 17:29 MST — Codex: Deduplicated guidance, created scaffolding folders, and added initial skill stubs.
