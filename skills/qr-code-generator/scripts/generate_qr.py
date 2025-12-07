@@ -3,7 +3,7 @@
 Generate a QR code PNG from text or a URL.
 
 Usage:
-    python generate_qr.py --text "https://example.com" --output qr.png
+    python skills/qr-code-generator/scripts/generate_qr.py --text "https://example.com" --output qr.png
 """
 import argparse
 from pathlib import Path
